@@ -1,0 +1,310 @@
+@fontStartSize:1080/320*10*1rem;
+
+
+//header
+header{
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    justify-content: space-between;
+    padding: 20/@fontStartSize 30/@fontStartSize;
+    .l{
+        flex: 10;
+        display: flex;
+        img{
+            width: 100/@fontStartSize;
+            height: 100/@fontStartSize;
+        }
+        p{
+            font-size: 60/@fontStartSize;
+            margin-top: 10/@fontStartSize;
+            margin-left: 7/@fontStartSize;
+        }
+    }
+    .r{
+        margin-left: 600/@fontStartSize;
+        flex: 2;
+        a{
+            color: #666666;
+            span{
+            font-size: 70/@fontStartSize;
+        }
+        }
+        
+    }
+}
+//banner
+.banner{
+    position: relative;
+}
+//container
+.container{
+    width: 27rem;
+    position: absolute;
+    bottom: 57%;
+    left: 9%;
+    z-index: 9999;
+    h2{
+        font-size: 60/@fontStartSize;
+        text-align: center;
+        color: whitesmoke;
+    }
+    p{
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+//nav
+.nav{
+    height: 120/@fontStartSize;
+    line-height: 120/@fontStartSize;
+
+   
+    
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20/@fontStartSize 37/@fontStartSize;
+    div{
+        text-align: center;
+       
+        span{
+             text-align: center;
+        color: #999999;
+        font-size: 76/@fontStartSize;
+        }
+        a{
+            color: #666666;
+            display: block;
+            margin-top: -35/@fontStartSize;
+        }
+    }
+}
+
+//about
+.about{
+    padding: 0 30/@fontStartSize;
+    margin-top: 110/@fontStartSize;
+    display: flex;
+    .word{
+        margin-left: 30/@fontStartSize;
+    }
+}
+//main
+.main{
+    margin-top: 90/@fontStartSize;
+    margin-left: 35/@fontStartSize;
+    margin-bottom: 30/@fontStartSize;
+    h2{
+        color: #666666;
+    }
+}
+//you
+.you{
+    position: relative;
+
+    img{
+        background: rgba(0,0,0,0.5);
+        height: 500/@fontStartSize;
+        width: 100%;
+        
+    }
+    p{
+        font-size: 60/@fontStartSize;
+        color: white;
+        position: absolute;
+        top: 50/@fontStartSize;
+        left: 50/@fontStartSize;
+    }
+}
+//footer
+.foot{
+   
+    color: #666666;
+    padding: 40/@fontStartSize 50/@fontStartSize;
+    display: flex;
+    .ll{
+        flex: 4;
+    }
+    .rr{
+       flex: 8;
+//      margin-left: 38/@fontStartSize;
+        p{
+            a{
+                color: #666666;
+            }
+        }
+    }
+}
+
+
+//tanchu
+.tanchu{
+    
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+//  margin-top: 100/@fontStartSize;
+    z-index: 999999;
+    .guanbi{
+        margin: 30/@fontStartSize 40/@fontStartSize 0 40/@fontStartSize;
+        float: right;
+        a{
+            display: block;
+            span{
+                color: white;
+            }
+        }
+    }
+    .list{
+        margin-top: 110/@fontStartSize;
+        li{
+            border-bottom: 1px solid #ab9e9e;
+           list-style: none;
+            text-align: center;
+            margin: 0 30/@fontStartSize;
+             a{
+                 font-size: 40/@fontStartSize;
+                 text-decoration: none;
+            height: 100/@fontStartSize;
+            line-height: 100/@fontStartSize;
+            color:white;
+            
+            }
+        }
+       
+    }
+}
+//////////////////////////////////////////////news
+.news{
+    h2{
+        margin: 80/@fontStartSize 0 0 30/@fontStartSize;
+        color: #b36363;
+    }
+    ul{
+        padding: 30/@fontStartSize 60/@fontStartSize;
+        li{
+            display: flex;
+            justify-content: space-between;
+            height: 60/@fontStartSize;
+            line-height: 60/@fontStartSize;
+            border-bottom: 1px solid #E9E9E9;
+            a{
+                color: #666666;
+            }
+            span{
+                color: #DDDDDD;
+            }
+        }
+    }
+}
+//////////////////////////////////////////////ways
+.ways{
+    .title{
+        margin: 80/@fontStartSize 0 0 30/@fontStartSize;
+        color: #b36363;
+    }
+    .hot{
+        margin-top: 40/@fontStartSize;
+        background: #ab8b8b;
+        display: flex;
+          
+          padding: 30/@fontStartSize 60/@fontStartSize;
+          .city{
+              flex: 6;
+              color: white;
+          }
+          .sou{
+              margin-left: 25/@fontStartSize;
+               flex: 6;
+              display: flex;
+              input{
+                      color: #999999;
+    border-radius: 7px;
+    border: 1px solid #a99b9b;
+              }
+              span{
+                   color: white;
+                  margin-top: 20/@fontStartSize;
+                  margin-left: 20/@fontStartSize;
+                  text-align: center;
+              }
+          }
+          
+    }
+}
+//luxian
+.luxian{
+    display: flex;
+    padding: 40/@fontStartSize 40/@fontStartSize;
+    .tubiao{
+        margin-right: 38/@fontStartSize;
+        color: #ab8b8b;
+    }
+    .didian{
+        h4{
+            color: #ab8b8b;
+        }
+        p{
+            color: #999999;
+        }
+    }
+}
+/////////////////////////////////////////////baoxian
+.baoxian{
+    .zhu{
+        margin: 40/@fontStartSize 40/@fontStartSize;
+        background:#ab8b8b;
+        padding: 27/@fontStartSize 20/@fontStartSize;
+        color: whitesmoke;
+    }
+    .xiangxi{
+        text-align: center;
+        p{
+            margin-top: 20/@fontStartSize;
+        }
+        .fangan{
+            margin: 20/@fontStartSize 38/@fontStartSize;
+            
+        }
+    }
+}
+/////////////////////////////////////////////liuyan
+.liuyan{
+    .zhu{
+        margin: 40/@fontStartSize 40/@fontStartSize;
+        background:#ab8b8b;
+        padding: 27/@fontStartSize 20/@fontStartSize;
+        color: whitesmoke;
+    }
+    form{
+         margin: 40/@fontStartSize 40/@fontStartSize;
+         .zhong{
+             height: 50/@fontStartSize;
+             line-height: 50/@fontStartSize;
+         }
+         label{
+             color: #999999;
+         }
+         input{
+             border-radius: 10px;
+    width: 25rem;
+    height: 3rem;
+    border: 1px solid #d6c7c7;
+        } 
+        textarea{
+               border-radius: 12px;
+                width: 25rem;
+                height: 7rem;
+                border: 1px solid #d6c7c7;
+                margin-top: 40/@fontStartSize;
+         }
+}
+}
+/////////////////////////////////////////////tel
+.tel{
+    margin-top: 50/@fontStartSize;
+}

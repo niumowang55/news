@@ -1,0 +1,273 @@
+header {
+  display: flex;
+  position: absolute;
+  z-index: 9999;
+  justify-content: space-between;
+  padding: 0.59259259rem 0.88888889rem;
+}
+header .l {
+  flex: 10;
+  display: flex;
+  display:-webkit-flex;
+  
+}
+header .l img {
+  width: 2.96296296rem;
+  height: 2.96296296rem;
+}
+header .l p {
+  font-size: 1.77777778rem;
+  margin-top: 0.2962963rem;
+  margin-left: 0.20740741rem;
+}
+header .r {
+  margin-left: 17.77777778rem;
+  flex: 2;
+}
+header .r a {
+  color: #666666;
+}
+header .r a span {
+  font-size: 2.07407407rem;
+}
+.banner {
+  position: relative;
+}
+.container {
+  width: 27rem;
+  position: absolute;
+  bottom: 57%;
+  left: 9%;
+  z-index: 9999;
+}
+.container h2 {
+  font-size: 1.77777778rem;
+  text-align: center;
+  color: whitesmoke;
+}
+.container p {
+  text-align: center;
+  color: whitesmoke;
+}
+.nav {
+  height: 3.55555556rem;
+  line-height: 3.55555556rem;
+  display: flex;
+  display:-webkit-flex;
+  justify-content: space-between;
+  padding: 0.59259259rem 1.0962963rem;
+}
+.nav div {
+  text-align: center;
+}
+.nav div span {
+  text-align: center;
+  color: #999999;
+  font-size: 2.25185185rem;
+}
+.nav div a {
+  color: #666666;
+  display: block;
+  margin-top: -1.03703704rem;
+}
+.about {
+  padding: 0 0.88888889rem;
+  margin-top: 3.25925926rem;
+  display: flex;
+}
+.about .word {
+  margin-left: 0.88888889rem;
+}
+.main {
+  margin-top: 2.66666667rem;
+  margin-left: 1.03703704rem;
+  margin-bottom: 0.88888889rem;
+}
+.main h2 {
+  color: #666666;
+}
+.you {
+  position: relative;
+}
+.you img {
+  background: rgba(0, 0, 0, 0.5);
+  height: 14.81481481rem;
+  width: 100%;
+}
+.you p {
+  font-size: 1.77777778rem;
+  color: white;
+  position: absolute;
+  top: 1.48148148rem;
+  left: 1.48148148rem;
+}
+.foot {
+  color: #666666;
+  padding: 1.18518519rem 1.48148148rem;
+  display: flex;
+}
+.foot .ll {
+  flex: 4;
+}
+.foot .rr {
+  flex: 8;
+}
+.foot .rr p a {
+  color: #666666;
+}
+.tanchu {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+}
+.tanchu .guanbi {
+  margin: 0.88888889rem 1.18518519rem 0 1.18518519rem;
+  float: right;
+}
+.tanchu .guanbi a {
+  display: block;
+}
+.tanchu .guanbi a span {
+  color: white;
+}
+.tanchu .list {
+  margin-top: 3.25925926rem;
+}
+.tanchu .list li {
+  border-bottom: 1px solid #ab9e9e;
+  list-style: none;
+  text-align: center;
+  margin: 0 0.88888889rem;
+}
+.tanchu .list li a {
+  font-size: 1.18518519rem;
+  text-decoration: none;
+  height: 2.96296296rem;
+  line-height: 2.96296296rem;
+  color: white;
+}
+.news h2 {
+  margin: 2.37037037rem 0 0 0.88888889rem;
+  color: #b36363;
+}
+.news ul {
+  padding: 0.88888889rem 1.77777778rem;
+}
+.news ul li {
+  display: flex;
+  justify-content: space-between;
+  height: 1.77777778rem;
+  line-height: 1.77777778rem;
+  border-bottom: 1px solid #E9E9E9;
+}
+.news ul li a {
+  color: #666666;
+}
+.news ul li span {
+  color: #DDDDDD;
+}
+.ways .title {
+  margin: 2.37037037rem 0 0 0.88888889rem;
+  color: #b36363;
+}
+.ways .hot {
+  margin-top: 1.18518519rem;
+  background: #ab8b8b;
+  display: flex;
+  padding: 0.88888889rem 1.77777778rem;
+}
+.ways .hot .city {
+  flex: 6;
+  color: white;
+}
+.ways .hot .sou {
+  margin-left: 0.74074074rem;
+  flex: 6;
+  display: flex;
+}
+.ways .hot .sou input {
+  color: #999999;
+  border-radius: 7px;
+  border: 1px solid #a99b9b;
+}
+.ways .hot .sou span {
+  color: white;
+  margin-top: 0.59259259rem;
+  margin-left: 0.59259259rem;
+  text-align: center;
+}
+.luxian {
+  display: flex;
+  padding: 1.18518519rem 1.18518519rem;
+}
+.luxian .tubiao {
+  margin-right: 1.12592593rem;
+  color: #ab8b8b;
+}
+.luxian .didian h4 {
+  color: #ab8b8b;
+}
+.luxian .didian p {
+  color: #999999;
+}
+.baoxian .zhu {
+  margin: 1.18518519rem 1.18518519rem;
+  background: #ab8b8b;
+  padding: 0.8rem 0.59259259rem;
+  color: whitesmoke;
+}
+.baoxian .xiangxi {
+  text-align: center;
+}
+.baoxian .xiangxi p {
+  margin-top: 0.59259259rem;
+}
+.baoxian .xiangxi .fangan {
+  margin: 0.59259259rem 1.12592593rem;
+}
+.liuyan .zhu {
+  margin: 1.18518519rem 1.18518519rem;
+  background: #ab8b8b;
+  padding: 0.8rem 0.59259259rem;
+  color: whitesmoke;
+}
+.liuyan form {
+  margin: 1.18518519rem 1.18518519rem;
+}
+.liuyan form .zhong {
+  height: 1.48148148rem;
+  line-height: 1.48148148rem;
+}
+.liuyan form label {
+  color: #999999;
+}
+.liuyan form input {
+  border-radius: 10px;
+  width: 25rem;
+  height: 3rem;
+  border: 1px solid #d6c7c7;
+}
+.liuyan form textarea {
+  border-radius: 12px;
+  width: 25rem;
+  height: 7rem;
+  border: 1px solid #d6c7c7;
+  margin-top: 1.18518519rem;
+}
+.liuyan form button{
+	display: block;
+    margin: 1.5rem auto;
+    background: #E9E9E9;
+    border-radius: 6px;
+    width: 22rem;
+    height: 2rem;
+    border: 1px solid #ECECEC;
+    color: #b57777;
+}
+.tel {
+  margin-top: 1.48148148rem;
+}
